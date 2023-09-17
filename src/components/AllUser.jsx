@@ -24,10 +24,9 @@ const AllUser = () => {
 
   useEffect(() => {
     getUsersData();
-  }, []);
+  }, );
   const getUsersData = async () => {
     let response = await getUsers();
-    console.log(response);
     setUsers(response.data);
   };  
   const deleteUserData = async (id) => {

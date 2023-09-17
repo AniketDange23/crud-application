@@ -4,3 +4,7 @@ AppBar{
 .Toolbar{
     font-size: large;
 }
+.card {
+    display: flex;
+    flex-direction: row;
+}
